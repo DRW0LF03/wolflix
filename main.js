@@ -8,7 +8,6 @@ $(".lin").hide();
   });
 });*/
 
-
 $(document).ready(function () {
   $(".btnall").click(function () {
     $(".linn").toggle();
@@ -65,7 +64,3 @@ $(document).ready(function () {
     $(".linn10").toggle(1000);
   });
 });
-
-
-
-
