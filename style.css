@@ -7,6 +7,46 @@ body {
 
 }
 
+
+footer{
+  background: #5F6A6A;
+  padding: 100px 0;
+}
+.footerr{
+  max-width: 2000px;
+  margin: auto;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  flex-wrap: wrap-reverse;
+  color: blanchedalmond;
+}
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width:960px) {
+  .footerr{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
 .menubutton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
   background: linear-gradient(to bottom, #ededed 5%, #adadad 100%);
