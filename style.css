@@ -1,268 +1,295 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 :root,
 body {
-  background: #2d3436;
-  margin: 0;
-  padding: 0;
-
+    background: #2d3436;
+    margin: 0;
+    padding: 0;
 }
 
-
-footer{
-  background: #5F6A6A;
-  padding: 60px 0;
-}
-.footerr{
-  max-width: 2000px;
-  margin: auto;
-  padding: 0px 5px;
-  display: flex;
-  justify-content: space-between;
-  
-  flex-wrap: wrap-reverse;
-  color: blanchedalmond;
-}
-.page-content{
-  min-height: 100vh;
-  font-size: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+footer {
+    background: #5F6A6A;
+    padding: 60px 0;
 }
 
+.footerr {
+    max-width: 2000px;
+    margin: auto;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    color: blanchedalmond;
+}
+
+.page-content {
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media screen and (max-width:960px) {
-  .footerr{
-    max-width: 600px;
-  }
-  .right-col{
-    width: 100%;
-    margin-bottom: 60px;
-  }
-
-  .left-col{
-    width: 100%;
-    text-align: center;
-  }
+    .footerr {
+        max-width: 600px;
+    }
+    .right-col {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .left-col {
+        width: 100%;
+        text-align: center;
+    }
 }
 
+.myButtonn {
+    box-shadow: inset 0px 1px 0px 0px #f5978e;
+    background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+    background-color: #f24537;
+    border-radius: 4px;
+    border: 4px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 51px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+
+.myButtonn:hover {
+    background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+    background-color: #c62d1f;
+}
+
+.myButtonn:active {
+    position: relative;
+    top: 1px;
+}
 
 .menubutton {
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(to bottom, #ededed 5%, #adadad 100%);
-  background-color: #ededed;
-  border-radius: 30px;
-  border: 5px solid #918891;
-  display: inline-block;
-  cursor: pointer;
-  color: #777777;
-  font-family: Arial;
-  font-size: 15px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 6px 24px;
-  text-decoration: none;
-  text-shadow: 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ededed 5%, #adadad 100%);
+    background-color: #ededed;
+    border-radius: 30px;
+    border: 5px solid #918891;
+    display: inline-block;
+    cursor: pointer;
+    color: #777777;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 0px 0px #ffffff;
 }
+
 .myButton:hover {
-  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
-  background-color: #5e5a5a;
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #5e5a5a;
 }
+
 .myButton:active {
-  position: relative;
-  top: 1px;
+    position: relative;
+    top: 1px;
 }
 
 .player {
-  background: #111;
-  font-family: Roboto, Arial;
-  color: #ddd;
-  font-size: 14px;
-  line-height: 1.2em;
-  font-weight: 400;
-  padding: 0;
-  margin: 0;
+    background: #111;
+    font-family: Roboto, Arial;
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
 
 .gmail {
-  text-indent: 30px;
-  font-size: 20px;
+    text-indent: 30px;
+    font-size: 20px;
 }
 
 .tar {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.coversp {
-  margin-left: auto;
-  margin-right: auto;
 
+.coversp {
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .animg:hover {
-  animation: shake 2s;
-  animation-iteration-count: infinite;
+    animation: shake 2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
-
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
 
-
-.curr{
+.curr {
     cursor: url(images/Angry-Wolf.png), pointer;
     border: 5px solid #dcdcdc;
-
-
 }
+
 td {
-  padding-right: 100px;
+    padding-right: 100px;
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cos {
-  display: -moz-box;
+    display: -moz-box;
 }
 
 .whitefont {
-  color: white;
+    color: white;
 }
 
 .fontf {
-  font-size: larger;
-  font-family: "Gabriel Weiss' Friends Font";
+    font-size: larger;
+    font-family: "Gabriel Weiss' Friends Font";
 }
+
 .btn {
-  border: 1px solid white;
-  background: none;
-  padding: 10px 20px;
-  color: seashell;
-  font-size: 20px;
-  font-family: "montserrat";
-  cursor: pointer;
-  margin: 10px;
-  transition: 0.8s;
-  position: relative;
-  overflow: hidden;
+    border: 1px solid white;
+    background: none;
+    padding: 10px 20px;
+    color: seashell;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
 }
 
 ul.linn li {
-  display: inline;
-  background: none;
-  color: seashell;
+    display: inline;
+    background: none;
+    color: seashell;
 }
 
 .myButton {
-  box-shadow: inset 0px 1px 3px 0px #ffffff;
-  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-  background-color: #ededed;
-  border-radius: 42px;
-  border: 2px solid #dcdcdc;
-  display: inline-block;
-  cursor: pointer;
-  color: #777777;
-  font-family: Arial;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 10px 10px;
-  text-decoration: none;
-  text-shadow: 0px -1px 0px #ffffff;
+    box-shadow: inset 0px 1px 3px 0px #ffffff;
+    background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color: #ededed;
+    border-radius: 42px;
+    border: 2px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #777777;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #ffffff;
 }
 
 .myButton:hover {
-  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
-  background-color: #dfdfdf;
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
 }
 
 .myButton:active {
-  position: relative;
-  top: 1px;
+    position: relative;
+    top: 1px;
 }
 
 .deconstructed {
-  position: relative;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-size: 2em;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(90deg, rgb(226, 16, 16), #fff, #000);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 10s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(226, 16, 16), #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 10s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 @keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
 }
 
 .centrr {
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .frm {
-  padding-left: 100px;
-}
-.hidmov{
     padding-left: 100px;
 }
-.appc {
-  color: blanchedalmond;
-  text-indent: 30px;
 
-  font-size: 20px;
+.hidmov {
+    padding-left: 100px;
 }
+
+.appc {
+    color: blanchedalmond;
+    text-indent: 30px;
+    font-size: 20px;
+}
+
 .cspotfiy {
-  width: 60px;
+    width: 60px;
 }
+
 .cnetflix {
-  width: 60px;
+    width: 60px;
 }
