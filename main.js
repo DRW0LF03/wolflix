@@ -4,6 +4,12 @@ $(".frm").hide();
 
 $(".hidmov").hide();
 
+$(document).ready(function() {
+    $(".animg").click(function() {
+        $(".hidmov").show();
+    });
+});
+
 
 
 //$(document).ready(function() {
